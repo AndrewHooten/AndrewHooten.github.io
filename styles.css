@@ -16,8 +16,8 @@ nav {
 nav ul {
     list-style-type: none;
 }
-li {
-    display:inline-flex;
+nav li {
+    display:inline;
 }
 li a {
     color: white;
@@ -53,6 +53,7 @@ footer {
 .grid {
     display:grid;
     grid-template-columns: auto auto;
+    column-gap: 16px;
 }
 img {
     width:500px;
@@ -108,4 +109,16 @@ img {
   .dropdown:hover .dropbtn {
     background-color: white;
     color:black;
+  }
+
+  @media screen and (max-width:768px)  {
+    nav li a{
+        display:block;
+    }
+    .grid-container {
+        display:block;
+    }
+    .grid {
+        display:block;
+    }
   }
