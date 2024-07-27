@@ -1,3 +1,6 @@
 [submodule "Skateland-Webpage"]
 	path = Skateland-Webpage
 	url = https://github.com/AndrewHooten/Skateland-Webpage
+[submodule "PizzaParlor"]
+	path = PizzaParlor
+	url = https://github.com/AndrewHooten/PizzaParlor
