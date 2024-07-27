@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Reservations
+        </title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservation.html">Reserve Now!</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="aboutus.html">About Us!</a></li>
+            </ul>
+        </nav>
+        <h1>Reservation Form</h1>
+        <form action="thankyou.html">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="first_name"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="last_name"><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="reservestart">Reservation Start Date</label><br>
+            <input type="datetime-local" id="reservestart" name="reservestart"><br>
+            <label for="reserveend">Reservation End Date</label><br>
+            <input type="datetime-local" id="reserveend" name="reserveend"><br>
+            <label>Is this a private party?</label><br>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="privatereserve" value="Yes"><br>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="privatereserve" value="No"><br>
+            <label for="additionalinfo">Additional Information</label><br>
+            <textarea  id="additionalinfo" name="additionalinfo" rows="3" cols="5">
+                Any additonal information or notes for volunteers or staff
+            </textarea><br>
+            <input type="submit" id="submit" name="submit" value="Submit">
+            <input type="reset" id="reset" name="reset" value="Reset">
+        </form>
+        <footer>
+			<div class="footerdiv">
+				Email us at:<a href="mailto:railroadhistoricalmuseum@yahoo.com">railroadhistoricalmuseum@yahoo.com</a>
+					<p>Our location:<a href="https://www.google.com/maps/place/Grant+Beach+Park/@37.2236619,-93.3006909,18z/data=!3m1!4b1!4m2!3m1!1s0x87cf6258db9a9c29:0xc2a08b750f2e4fca">1353 North Douglas Avenue, Springfield, Missouri</a></p>
+				Call us at: 417-343-6838
+			</div>
+        </footer>
+    </body>
+    </html>

@@ -1,0 +1,75 @@
+body {
+    margin:auto;
+}
+ul {
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+    position:fixed;
+    top: 0;
+    width:100%;
+    color:white;
+    background-color: rgb(94, 94, 94);
+}
+li, a{
+    display:inline-block;
+    padding: 4px;
+    text-align: center;
+    color:white
+}
+nav {
+    background-color:darkgrey;
+    padding: 0px;
+    text-align: center;
+}
+a:visited{
+    color:white;
+}
+li a:hover {
+    background-color:rgb(41, 41, 41);
+}
+h1 {
+    padding:8px;
+    padding-bottom: 0;
+    text-align: center;
+}
+.homeimage {
+    min-height: 600px;
+    background-image: url(Images/train_home.jpg);
+    background-size:cover;
+    width:100%;
+    background-color: rgb(94, 94, 94);
+    float:left;
+}
+p, .footerdiv{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+h2, h3{
+    text-align: center;
+}
+footer {
+    bottom:0;
+    background-color: rgb(94, 94, 94);
+    color:white;
+    text-align: right;
+    margin:auto;
+    padding: 4px;
+}
+.galleryimage {
+    padding: 0px;
+    width:650px;
+}
+.thankyou {
+    background-image: url(Images/thankyou.gif);
+    background-size: cover;
+}
+.flex-container {
+    display:flex;
+}
+@media (max-width:720px) {
+    nav {
+        display: inline;
+    }
+
+}
